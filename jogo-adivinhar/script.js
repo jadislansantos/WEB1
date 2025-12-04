@@ -56,12 +56,12 @@ function tentar() {
     }
     else if (num > numeroSecreto) {
         resultado.innerHTML += "Palpite: " + num;
-        resultado.innerHTML += " - O número é menor! <br>";
+        resultado.innerHTML += " - O número é menor! <br><br>";
         vidas--;
     }
     else if (num < numeroSecreto) {
         resultado.innerHTML += "Palpite: " + num;
-        resultado.innerHTML += " - O número é maior! <br>"
+        resultado.innerHTML += " - O número é maior! <br><br>"
         vidas--;
     }
 
