@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="txt-titulo">Guess Game</h1>
+    </header>
+    <section>
+        <div id="tentativas">
+            <p id="vidas">❤️ ❤️ ❤️ ❤️ ❤️</p>
+        </div>
+        <div id="adivinhe" class="adv-number">
+            <p>Adivinhe o número entre 1 e 10.</p><br><br>
+            <button id="btnIniciar">Começar</button><br><br><br>
+            Palpite: <input type="number" id="num"><br><br><br>
+
+            <button id="btnTentar">Tentar</button>
+        </div>
+        <div id="respostas">
+            <p class="adv-number">Respostas do Usuário:</p>
+            <p id="txt-respostas">...</p>
+        </div>
+    </section>
+    <footer>
+        <p id="rodape" class="adv-number">&copy WEB 1 - UNEB 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
