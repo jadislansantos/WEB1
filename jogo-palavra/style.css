@@ -1,0 +1,115 @@
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+section#jogo {
+    background-color: #ddc196;
+    width: 420px;
+    padding: 10px;
+    padding-top: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box-imagem {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 150px;
+    width: 0%;
+    
+    margin: 10px 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-iniciar {
+    height: 70px;
+    width: 100%;
+    margin: 5px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#btn_iniciar {
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+
+#box-palavra {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 65px;
+    width: 100%;
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-teclado {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.tecla {
+    background-color: #cfa97e;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+
+    cursor: pointer;
+    transition: background-color .2s, transform .1s;
+}
+
+.tecla:hover {
+    background-color: #b88a5b;
+    transform: scale(1.05);
+}
+
+.tecla:disabled {
+    background-color: #dfd2c2;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#palavra {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#txtRodape {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
